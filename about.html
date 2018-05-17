@@ -27,10 +27,31 @@
 
     <audio id="audioClick" src="assets/audio/Click2-Sebastian-759472264.mp3" preload="auto"></audio>
 
-    <!-- Create navigation bar. -->
-    <div class="content-container">
 
-        <nav id="navBarID" class="navbar navbar-light sticky-top navbar-expand-lg animated fadeIn">
+    <!-- Intro Page -->
+    <header id="jumbotronID" class="jumbotron jumbotron-fluid animated slideInLeft d-none" alt="Water drop splashing">
+        <div class="container pb-0">
+            <h1 id="jumbotronHdr" class="display-4 text-center m-2 text-white font-weight-bold">Welcome To Eric's Portfolio</h1>
+            <div class="row">
+                <p id="jumbotronTxt" class="lead mx-auto align-bottom text-white font-weight-bold pt-5">
+                    Feel free to browse!
+                </p>
+            </div>
+            <div class="row">
+                <img id="startApp" class="img-fluid mx-auto" src="assets/images/if_Play1Pressed_22932.png" style="width:20%; height:20%"
+                    alt="Play button">
+            </div>
+            <div class="row">
+                <h3 id="author" class="text-white mx-auto">By: Eric Ng</h3>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Create navigation bar. -->
+    <div class="content-container animated fadeIn">
+
+        <nav id="navBarID" class="navbar navbar-light sticky-top navbar-expand-lg">
             <div class="container">
                 <a id="navBarName" class="navbar-brand text-light" href="index.html">
                     <h1 class="font-weight-bold p-1 px-2">Eric Ng</h1>
@@ -41,18 +62,18 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul id="navLinks" class="navbar-nav ml-auto w-100 justify-content-end text-light">
-                        <li class="nav-item nav-link-color border px-2 mx-1 ">
-                            <a class="nav-link text-light" href="index.html">
+                        <li class="nav-item nav-link-color border px-2 mx-1 current_page clickAble">
+                            <a class="nav-link text-light " href="index.html">
                                 About
                             </a>
                         </li>
-                        <li class="nav-item nav-link-color border px-2 mx-1 my-auto">
-                            <a class="nav-link text-light" href="portfolio.html">
+                        <li class="nav-item nav-link-color border px-2 mx-1 my-auto clickAble">
+                            <a class="nav-link text-light " href="portfolio.html">
                                 Work
                             </a>
                         </li>
-                        <li class="nav-item nav-link-color border px-2 mx-1 my-auto">
-                            <a class="nav-link text-light" href="contact.html">
+                        <li class="nav-item nav-link-color border px-2 mx-1 my-auto clickAble">
+                            <a class="nav-link text-light " href="contact.html">
                                 Contact
                             </a>
                         </li>
@@ -69,7 +90,7 @@
             <div id="aboutPage" class="card">
                 <section id="gifIndex" class="card-body border-bottom">
                     <h2 class="font-weight-bold text-center">
-                        Contact
+                        About Me
                     </h2>
                 </section>
                 <section class="card-body">

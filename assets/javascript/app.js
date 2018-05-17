@@ -30,10 +30,19 @@ $(document).ready(function () {
             $("#aboutPage").removeClass('d-none'); //Unhiding question box
             $("#navBarID").removeClass('d-none'); //Unhiding question box
             $("#footerID").removeClass('d-none'); //Unhiding question box
-            
+            window.location.href="about.html";
         });
     });
 
+
+    $(".clickAble").on("click", function(event){
+        play_click_sound();
+        event.preventDefault;
+    })
+
+    $(document).on("click", ".clickAble", function(){
+        play_click_sound();
+    })
 
     function play_click_sound() {
         document.getElementById('audioClick').play();

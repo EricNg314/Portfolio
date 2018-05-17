@@ -47,6 +47,13 @@ body {
     background:rgba(61, 47, 189, 0.76);
 }
 
+#navLinks a.current_page{
+    position:absolute;
+    height:1px;
+    bottom: 49%;
+    background-color:black;
+
+}
 
 #aboutPage{
     background:rgba(208, 202, 255, 0.76);
