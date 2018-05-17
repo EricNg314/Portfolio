@@ -1,3 +1,14 @@
+body {
+    width: 100%;
+    background: url("../images/maxresdefault.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+    background-size: cover;
+    overflow: visible;
+
+}
+
 
 #jumbotronID {
     background-image: url("../images/water_drop.jpeg");
@@ -5,8 +16,6 @@
     background-repeat: no-repeat;
     padding: 2rem 2rem;
     display:flex;
-    /* height:100%; */
-    /* max-height: 100%; */
     align-items: center;
     min-height: 100vh;
     margin-bottom: 0;
@@ -22,4 +31,27 @@
 #author, #jumbotronTxt {
 
     text-shadow: 8px 2px 2px black;
+}
+
+#navBarID{
+    background:rgba(14, 0, 145, 0.37);
+}
+
+#navBarName{
+    border-radius: 20%;
+    background:rgba(61, 47, 189, 0.76);
+}
+
+.nav-link-color{
+    border-radius: 12%;
+    background:rgba(61, 47, 189, 0.76);
+}
+
+
+#aboutPage{
+    background:rgba(208, 202, 255, 0.76);
+}
+
+#footerID{
+    background:rgba(14, 0, 145, 0.37);
 }
