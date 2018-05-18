@@ -72,10 +72,15 @@ body {
 .imgBox{
     position: relative;
 }
+#imgText{
+    width:100%;
+    bottom:10px;
+    /* position: absolute; */
+}
 
 .imageText{
-    /* position: absolute; */
-    bottom: 10px;
+    position: absolute;
+    bottom: 40px;
     width: 100%;
     background: rgba(0, 0, 139, 0.582);
 }
