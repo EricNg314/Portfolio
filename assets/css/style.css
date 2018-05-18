@@ -76,7 +76,7 @@ body {
 
 .imageText{
     position: absolute;
-    bottom: 20px;
+    bottom: 30px;
     width: 100%;
     background: rgba(0, 0, 139, 0.582);
 }
