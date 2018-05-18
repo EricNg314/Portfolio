@@ -38,13 +38,12 @@ body {
 }
 
 #navBarName{
-    border-radius: 20%;
-    background:rgba(61, 47, 189, 0.76);
+    border: 1px solid white;
+    background:rgba(61, 47, 189, 0.85);
 }
 
 .nav-link-color{
-    border-radius: 12%;
-    background:rgba(61, 47, 189, 0.76);
+    background:rgba(61, 47, 189, 0.85);
 }
 
 #navLinks a.current_page{
@@ -54,11 +53,38 @@ body {
     background-color:black;
 
 }
-
-#aboutPage{
-    background:rgba(208, 202, 255, 0.76);
+.sectionTitle{
+    background:rgba(93, 131, 255, 0.85);
 }
 
-#footerID{
-    background:rgba(14, 0, 145, 0.37);
+.overflowHidden{
+    overflow:hidden;
+}
+
+.pageContent{
+    background:rgba(202, 223, 255, 0.85);
+}
+
+.portfolioImg{
+    margin: 20px auto;
+}
+
+.imgBox{
+    position: relative;
+}
+
+.imageText{
+    /* position: absolute; */
+    bottom: 10px;
+    width: 100%;
+    background: rgba(0, 0, 139, 0.582);
+}
+
+.footerContent{
+    background:rgba(61, 47, 189, 0.85);
+}
+
+
+.footerTitle{
+    background:rgba(61, 47, 189, 0.90);
 }

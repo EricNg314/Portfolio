@@ -5,6 +5,7 @@ $(document).ready(function () {
     $("#startApp").on("click", function () {
         play_click_sound();
 
+
         //=======Animation ending detection BEGIN========/
         var animationEnd = (function (el) {
             var animations = {
@@ -35,17 +36,9 @@ $(document).ready(function () {
     });
 
 
-    $(".clickAble").on("click", function(event){
-        play_click_sound();
-        event.preventDefault;
-    })
-
-    $(document).on("click", ".clickAble", function(){
-        play_click_sound();
-    })
-
-    function play_click_sound() {
+    function play_click_sound(event) {
         document.getElementById('audioClick').play();
+
     }
 
 });
