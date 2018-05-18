@@ -2,7 +2,7 @@
 
 First off, thank you for visiting my page. This contains a compilation of my web development projects and will be even better in the future! 
 
-## Link: https://github.com/EricNg314/Portfolio
+## Link: https://ericng314.github.io/Portfolio/
 <img src="assets/images/About_Page.png" width="50%" height="50%">
 
 
