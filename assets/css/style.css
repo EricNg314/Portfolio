@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    background: url("../images/maxresdefault.jpg") no-repeat bottom right fixed;
+    background: url("../images/dark_sky.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover; 
@@ -34,16 +34,16 @@ body {
 }
 
 #navBarID{
-    background:rgba(14, 0, 145, 0.37);
+    background:rgba(14, 0, 145, 0.20);
 }
 
 #navBarName{
     border: 1px solid white;
-    background:rgba(61, 47, 189, 0.85);
+    /* background:rgba(61, 47, 189, 0.85); */
 }
 
 .nav-link-color{
-    background:rgba(61, 47, 189, 0.85);
+    /* background:rgba(61, 47, 189, 0.85); */
 }
 
 #navLinks a.current_page{
@@ -54,7 +54,7 @@ body {
 
 }
 .sectionTitle{
-    background:rgba(93, 131, 255, 0.85);
+    background:rgba(93, 131, 255, 0.20);
 }
 
 .overflowHidden{
@@ -62,7 +62,10 @@ body {
 }
 
 .pageContent{
-    background:rgba(202, 223, 255, 0.85);
+    background:rgba(0, 0, 0, 0.6);
+    color:white;
+    font-weight: 400;
+    font-size: 14pt;
 }
 
 .portfolioImg{
@@ -82,10 +85,10 @@ body {
 }
 
 .footerContent{
-    background:rgba(61, 47, 189, 0.85);
+    background:rgba(14, 0, 145, 0.20);
 }
 
 
 .footerTitle{
-    background:rgba(61, 47, 189, 0.90);
+    /* background:rgba(61, 47, 189, 0.90); */
 }
