@@ -48,7 +48,7 @@ $(document).ready(function () {
             image_ref: "assets/images/Liri-Node-App.png",
             image_alt: "Liri a node application.",
             repo_url: "https://github.com/EricNg314/Liri-node-app",
-            deployed_url: "https://github.com/EricNg314/Liri-node-app"
+            deployed_url: ""
         },
         {
             name: "Bamazon",
