@@ -66,24 +66,24 @@ $(document).ready(function () {
         },
         {
             name: "Pokemon-Catcher",
-            image_ref: "assets/images/Pokemon-Catcher.png",
+            image_ref: "assets/images/Pokemon-Catcher_v2.png",
             image_alt: "Pokemon Catcher with SQL.",
             repo_url: "https://github.com/EricNg314/Pokemon-Catcher",
             deployed_url: "https://damp-hollows-13291.herokuapp.com/"
         },
         {
             name: "Poke-Catcher-Sequelized",
-            image_ref: "assets/images/Pokemon-Catcher.png",
+            image_ref: "assets/images/Pokemon-Catcher_v2.png",
             image_alt: "Pokemon Catcher using Sequelize.",
             repo_url: "https://github.com/EricNg314/Poke-Catcher-Sequelized",
             deployed_url: "https://tranquil-sierra-89766.herokuapp.com/"
         },
         {
-            name: "",
-            image_ref: "",
-            image_alt: "",
-            repo_url: "",
-            deployed_url: ""
+            name: "Rent-All",
+            image_ref: "assets/images/Rent-All.png",
+            image_alt: "Rent-All Application",
+            repo_url: "https://github.com/EricNg314/Rent-All",
+            deployed_url: "https://enigmatic-shore-55514.herokuapp.com/"
         }
     ];
 
