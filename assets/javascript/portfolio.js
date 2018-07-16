@@ -137,7 +137,7 @@ function displayTagBtns(tagBtnList) {
     $("#projectTags").empty();
     for (var i = 0; i < tagBtnList.length; i++) {
         var tagButton = $("<button>");
-        tagButton.addClass("btn tag-btn my-1 mx-1 tag-style text-white btn-outline-light animated fadeIn");
+        tagButton.addClass("btn tag-btn my-1 mx-1 tag-style btn-outline-light animated fadeIn");
         tagButton.attr("data-tag", tagBtnList[i]);
         tagButton.text(tagBtnList[i]);
 
