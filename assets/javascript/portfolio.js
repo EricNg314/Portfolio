@@ -120,16 +120,18 @@ $(document).ready(function () {
     displayTagBtns(tagBtnList);
 
     //Adding projects to gallery.
-    displayProjects(projects);
+    // displayProjects(projects);
+    selectedTag(projects, "Show All");
 
+    $(document).on("click", ".tag-btn", function (event) {
+
+        var tag = $(this).attr("data-tag");
+        // console.log($(this).attr("data-tag"));
+        selectedTag(projects, tag);
+    })
 
 });
 
-$(document).on("click", ".tag-btn", function (event) {
-
-    console.log($(this).attr("data-tag"));
-    // displayProjects(tag);
-})
 
 function displayTagBtns(tagBtnList) {
     $("#projectTags").empty();
@@ -143,52 +145,60 @@ function displayTagBtns(tagBtnList) {
     }
 }
 
-function displayProjects(projects) {
+function selectedTag(projects, tag) {
+    $("#projectList").empty();
     for (var i = 0; i < projects.length; i++) {
-        //If statement to remove current placeholder projects.
-        if (projects[i]["name"] !== "") {
-
-            var projectDiv = $("<div>");
-            projectDiv.addClass("col-sm-12 col-md-6 col-lg-4");
-
-            var projectInfo = $("<div>");
-            projectInfo.addClass("portfolioCard card mx-auto mb-4");
-
-            var imageAnchor = $("<a>");
-            imageAnchor.addClass("hvr-grow");
-            imageAnchor.attr("href", projects[i]["repo_url"]);
-
-            var imageTag = $("<img>");
-            imageTag.addClass("card-img-top");
-            imageTag.attr("src", projects[i]["image_ref"]);
-            imageTag.attr("alt", projects[i]["image_alt"]);
-
-            var imageTitleDiv = $("<div>");
-            imageTitleDiv.addClass("card-body position-absolute px-0 py-2 imageText");
-
-            var imageTitle = $("<h5>");
-            imageTitle.addClass("card-title text-light text-center mb-0 py-3");
-            imageTitle.text(projects[i]["name"]);
-
-            var imageDeployAnchor = $("<a>");
-            imageDeployAnchor.addClass("text-light");
-            imageDeployAnchor.attr("href", projects[i]["deployed_url"]);
-            if (projects[i]["deployed_url"] !== "") {
-                imageDeployAnchor.text("Deployed Link: HERE.");
-            } else {
-                imageDeployAnchor.text("Deployed Link: Repo-only, application is command based.");
-            }
-
-            projectDiv.append(projectInfo);
-            projectInfo.append(imageAnchor);
-            projectInfo.append(imageDeployAnchor);
-            imageAnchor.append(imageTag);
-            imageAnchor.append(imageTitleDiv);
-            imageTitleDiv.append(imageTitle);
-
-            $("#projectList").append(projectDiv);
+        if (projects[i]["tags"].indexOf(tag) != -1) {
+            displayProject(projects[i])
         }
     }
-
-
 }
+
+
+function displayProject(project) {
+    //If statement to remove current placeholder projects.
+    if (project["name"] !== "") {
+
+        var projectDiv = $("<div>");
+        projectDiv.addClass("col-sm-12 col-md-6 col-lg-4");
+
+        var projectInfo = $("<div>");
+        projectInfo.addClass("portfolioCard card mx-auto mb-4");
+
+        var imageAnchor = $("<a>");
+        imageAnchor.addClass("hvr-grow");
+        imageAnchor.attr("href", project["repo_url"]);
+
+        var imageTag = $("<img>");
+        imageTag.addClass("card-img-top");
+        imageTag.attr("src", project["image_ref"]);
+        imageTag.attr("alt", project["image_alt"]);
+
+        var imageTitleDiv = $("<div>");
+        imageTitleDiv.addClass("card-body position-absolute px-0 py-2 imageText");
+
+        var imageTitle = $("<h5>");
+        imageTitle.addClass("card-title text-light text-center mb-0 py-3");
+        imageTitle.text(project["name"]);
+
+        var imageDeployAnchor = $("<a>");
+        imageDeployAnchor.addClass("text-light");
+        imageDeployAnchor.attr("href", project["deployed_url"]);
+        if (project["deployed_url"] !== "") {
+            imageDeployAnchor.text("Deployed Link: HERE.");
+        } else {
+            imageDeployAnchor.text("Deployed Link: Repo-only, application is command based.");
+        }
+
+        projectDiv.append(projectInfo);
+        projectInfo.append(imageAnchor);
+        projectInfo.append(imageDeployAnchor);
+        imageAnchor.append(imageTag);
+        imageAnchor.append(imageTitleDiv);
+        imageTitleDiv.append(imageTitle);
+
+        $("#projectList").append(projectDiv);
+    }
+}
+
+
