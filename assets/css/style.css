@@ -61,6 +61,10 @@ body {
     overflow:hidden;
 }
 
+.tag-style {
+    background:rgba(93, 131, 255, 0.20);
+}
+
 .pageContent{
     background:rgba(0, 0, 0, 0.6);
     color:white;
