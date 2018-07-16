@@ -124,8 +124,9 @@ $(document).ready(function () {
     selectedTag(projects, "Show All");
 
     $(document).on("click", ".tag-btn", function (event) {
-
+        $(".tag-btn").removeClass("active")
         var tag = $(this).attr("data-tag");
+        $(this).addClass("active");
         // console.log($(this).attr("data-tag"));
         selectedTag(projects, tag);
     })
@@ -137,7 +138,11 @@ function displayTagBtns(tagBtnList) {
     $("#projectTags").empty();
     for (var i = 0; i < tagBtnList.length; i++) {
         var tagButton = $("<button>");
-        tagButton.addClass("btn tag-btn my-1 mx-1 tag-style btn-outline-light animated fadeIn");
+        tagButton.addClass("btn tag-btn my-1 mx-1 tag-style btn-outline-light font-weight-bold animated fadeIn");
+        //Add active to the initial rendering of tag list.
+        if (tagBtnList[i] === "Show All") {
+            tagButton.addClass("active");
+        }
         tagButton.attr("data-tag", tagBtnList[i]);
         tagButton.text(tagBtnList[i]);
 
