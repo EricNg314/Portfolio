@@ -105,20 +105,20 @@ $(document).ready(function () {
             tags: ["Show All", "HTML", "CSS", "Javascript", "jQuery", "Bootstrap", "Express.js", "Node.js", "MongoDB", "Handlebars"]
         },
         {
-            name: "",
-            image_ref: "",
+            name: "Kitten Memory Game",
+            image_ref: "assets/images/test images/Kitten Memory Game-REACT.png",
             image_alt: "Kitten-Memory-Game-REACT Application",
-            repo_url: "",
-            deployed_url: "",
+            repo_url: "https://github.com/EricNg314/Kitten-Memory-Game-REACT",
+            deployed_url: "https://ericng314.github.io/Kitten-Memory-Game-REACT/",
             tags: ["Show All", "HTML", "CSS", "Javascript", "Bootstrap", "Express.js", "Node.js", "React"]
         },
         {
-            name: "",
-            image_ref: "",
+            name: "Career Deer",
+            image_ref: "assets/images/test images/Career-Deer.png",
             image_alt: "Career Deer Application",
-            repo_url: "",
-            deployed_url: "",
-            tags: ["Show All", "HTML", "CSS", "Javascript", "Bootstrap", "Express.js", "Node.js", "React", "Redux"]
+            repo_url: "https://github.com/jimmytutron/career-deer",
+            deployed_url: "https://careerdeer.herokuapp.com/",
+            tags: ["Show All", "HTML", "CSS", "Javascript", "Bootstrap", "Express.js", "Node.js", "MongoDB", "React", "Redux"]
         }
     ];
 
@@ -153,7 +153,7 @@ function displayTagBtns(tagBtnList) {
     $("#projectTags").empty();
     for (var i = 0; i < tagBtnList.length; i++) {
         var tagButton = $("<button>");
-        tagButton.addClass("btn tag-btn my-1 mx-1 tag-style btn-outline-light font-weight-bold animated fadeIn");
+        tagButton.addClass("btn tag-btn my-1 mx-1 tag-style btn-outline-light animated fadeIn");
         //Add active to the initial rendering of tag list.
         if (tagBtnList[i] === "Show All") {
             tagButton.addClass("active");
@@ -180,7 +180,7 @@ function displayProject(project) {
     if (project["name"] !== "") {
 
         var projectDiv = $("<div>");
-        projectDiv.addClass("col-sm-12 col-md-6 col-lg-4");
+        projectDiv.addClass("col-sm-12 col-md-6 col-lg-6");
 
         var projectInfo = $("<div>");
         projectInfo.addClass("portfolioCard card mx-auto mb-4");
@@ -188,6 +188,7 @@ function displayProject(project) {
         var imageAnchor = $("<a>");
         imageAnchor.addClass("hvr-grow");
         imageAnchor.attr("href", project["repo_url"]);
+        imageAnchor.attr("target", "_blank");
 
         var imageTag = $("<img>");
         imageTag.addClass("card-img-top");
@@ -202,12 +203,14 @@ function displayProject(project) {
         imageTitle.text(project["name"]);
 
         var imageDeployAnchor = $("<a>");
-        imageDeployAnchor.addClass("text-light fz-12");
+        imageDeployAnchor.addClass("text-light fz-14");
+        imageDeployAnchor.attr("target", "_blank");
         imageDeployAnchor.attr("href", project["deployed_url"]);
         if (project["deployed_url"] !== "") {
-            imageDeployAnchor.text("Deployed Link: HERE.");
+            imageDeployAnchor.text("Deployed: CLICK HERE.");
         } else {
-            imageDeployAnchor.text("Deployed Link: Repo-only, application is command based.");
+            imageDeployAnchor.text("Deployed: Repo-only, application is command based.");
+            imageDeployAnchor.attr("href", project["repo_url"]);
         }
 
         projectDiv.append(projectInfo);
