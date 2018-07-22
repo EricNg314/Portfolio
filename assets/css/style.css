@@ -83,7 +83,7 @@ body {
 
 .imageText{
     position: absolute;
-    bottom: 30px;
+    bottom: 15px;
     width: 100%;
     background: rgba(0, 0, 139, 0.582);
 }
@@ -99,4 +99,8 @@ body {
 
 .footerTitle{
     /* background:rgba(61, 47, 189, 0.90); */
+}
+
+.fz-12 {
+    font-size: 12px;
 }

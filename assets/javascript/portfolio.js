@@ -2,7 +2,7 @@ $(document).ready(function () {
     var projects = [
         {
             name: "Hangman",
-            image_ref: "assets/images/WordGuess.png",
+            image_ref: "assets/images/test images/WordGuess.png",
             image_alt: "Word Guess Game",
             repo_url: "https://github.com/EricNg314/Word-Guess-Game",
             deployed_url: "https://ericng314.github.io/Word-Guess-Game/",
@@ -10,7 +10,7 @@ $(document).ready(function () {
         },
         {
             name: "Kibble Collector",
-            image_ref: "assets/images/Kibble-Collector.png",
+            image_ref: "assets/images/test images/Kibble-Collector.png",
             image_alt: "Unit 4 Game",
             repo_url: "https://github.com/EricNg314/unit-4-game",
             deployed_url: "https://ericng314.github.io/unit-4-game/",
@@ -18,7 +18,7 @@ $(document).ready(function () {
         },
         {
             name: "Trivia",
-            image_ref: "assets/images/Trivia.png",
+            image_ref: "assets/images/test images/Trivia.png",
             image_alt: "Trivia Game",
             repo_url: "https://github.com/EricNg314/TriviaGame",
             deployed_url: "https://ericng314.github.io/TriviaGame/",
@@ -26,7 +26,7 @@ $(document).ready(function () {
         },
         {
             name: "Gif Loader",
-            image_ref: "assets/images/Gif Loader.png",
+            image_ref: "assets/images/test images/Gif Loader.png",
             image_alt: "Gif Loader",
             repo_url: "https://github.com/EricNg314/GifTastic",
             deployed_url: "https://ericng314.github.io/GifTastic/",
@@ -34,7 +34,7 @@ $(document).ready(function () {
         },
         {
             name: "Train Scheduler",
-            image_ref: "assets/images/Train-Scheduler.png",
+            image_ref: "assets/images/test images/Train-Scheduler.png",
             image_alt: "Train Scheduler",
             repo_url: "https://github.com/EricNg314/Train_Scheduler",
             deployed_url: "https://ericng314.github.io/Train_Scheduler/",
@@ -42,7 +42,7 @@ $(document).ready(function () {
         },
         {
             name: "FoodTroverts",
-            image_ref: "assets/images/FoodTrovert.png",
+            image_ref: "assets/images/test images/FoodTroverts.png",
             image_alt: "FoodTroverts",
             repo_url: "https://github.com/EricNg314/Foodtroverts",
             deployed_url: "https://ericng314.github.io/Foodtroverts/",
@@ -66,7 +66,7 @@ $(document).ready(function () {
         },
         {
             name: "Match Pokemon Trainers",
-            image_ref: "assets/images/Pokemon-Trainer-Finder.png",
+            image_ref: "assets/images/test images/Pokemon-Trainer-Finder.png",
             image_alt: "A pokemon match maker app.",
             repo_url: "https://github.com/EricNg314/Poke-Trainer-Finder",
             deployed_url: "https://powerful-mountain-82732.herokuapp.com/",
@@ -74,7 +74,7 @@ $(document).ready(function () {
         },
         {
             name: "Pokemon-Catcher",
-            image_ref: "assets/images/Pokemon-Catcher_v2.png",
+            image_ref: "assets/images/test images/Pokemon-Catcher.png",
             image_alt: "Pokemon Catcher with SQL.",
             repo_url: "https://github.com/EricNg314/Pokemon-Catcher",
             deployed_url: "https://damp-hollows-13291.herokuapp.com/",
@@ -82,7 +82,7 @@ $(document).ready(function () {
         },
         {
             name: "Poke-Catcher-Sequelized",
-            image_ref: "assets/images/Pokemon-Catcher_v2.png",
+            image_ref: "assets/images/test images/Pokemon-Catcher.png",
             image_alt: "Pokemon Catcher using Sequelize.",
             repo_url: "https://github.com/EricNg314/Poke-Catcher-Sequelized",
             deployed_url: "https://tranquil-sierra-89766.herokuapp.com/",
@@ -90,18 +90,18 @@ $(document).ready(function () {
         },
         {
             name: "Rent-All",
-            image_ref: "assets/images/Rent-All.png",
+            image_ref: "assets/images/test images/Rent-All.png",
             image_alt: "Rent-All Application",
             repo_url: "https://github.com/EricNg314/Rent-All",
             deployed_url: "https://enigmatic-shore-55514.herokuapp.com/",
             tags: ["Show All", "HTML", "CSS", "Javascript", "jQuery", "Bootstrap", "Express.js", "Node.js", "SQL", "Sequelize", "Handlebars"]
         },
         {
-            name: "",
-            image_ref: "",
+            name: "Job-Scraper",
+            image_ref: "assets/images/test images/Job Scraper.png",
             image_alt: "Job-Scraper Application",
-            repo_url: "",
-            deployed_url: "",
+            repo_url: "https://github.com/EricNg314/Job-Scraper",
+            deployed_url: "https://radiant-everglades-91406.herokuapp.com/",
             tags: ["Show All", "HTML", "CSS", "Javascript", "jQuery", "Bootstrap", "Express.js", "Node.js", "MongoDB", "Handlebars"]
         },
         {
@@ -111,10 +111,18 @@ $(document).ready(function () {
             repo_url: "",
             deployed_url: "",
             tags: ["Show All", "HTML", "CSS", "Javascript", "Bootstrap", "Express.js", "Node.js", "React"]
+        },
+        {
+            name: "",
+            image_ref: "",
+            image_alt: "Career Deer Application",
+            repo_url: "",
+            deployed_url: "",
+            tags: ["Show All", "HTML", "CSS", "Javascript", "Bootstrap", "Express.js", "Node.js", "React", "Redux"]
         }
     ];
 
-    var tagBtnList = ["Show All", "Web Games", "Entertainment", "HTML", "CSS", "Javascript", "jQuery", "Bootstrap", "API", "Google Firebase", "Express.js", "Node.js", "SQL", "Sequelize", "MongoDB", "React", "Handlebars"];
+    var tagBtnList = ["Show All", "Web Games", "Entertainment", "HTML", "CSS", "Javascript", "jQuery", "Bootstrap", "API", "Google Firebase", "Express.js", "Node.js", "SQL", "Sequelize", "MongoDB", "React", "Redux", "Handlebars"];
 
     //Adding tag buttons.
     displayTagBtns(tagBtnList);
@@ -129,10 +137,17 @@ $(document).ready(function () {
         $(this).addClass("active");
         // console.log($(this).attr("data-tag"));
         selectedTag(projects, tag);
+        onLinkClick();
     })
 
 });
 
+function onLinkClick(){
+    document.getElementById('galleryID').scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+    });
+}
 
 function displayTagBtns(tagBtnList) {
     $("#projectTags").empty();
@@ -183,11 +198,11 @@ function displayProject(project) {
         imageTitleDiv.addClass("card-body position-absolute px-0 py-2 imageText");
 
         var imageTitle = $("<h5>");
-        imageTitle.addClass("card-title text-light text-center mb-0 py-3");
+        imageTitle.addClass("card-title text-light text-center mb-0");
         imageTitle.text(project["name"]);
 
         var imageDeployAnchor = $("<a>");
-        imageDeployAnchor.addClass("text-light");
+        imageDeployAnchor.addClass("text-light fz-12");
         imageDeployAnchor.attr("href", project["deployed_url"]);
         if (project["deployed_url"] !== "") {
             imageDeployAnchor.text("Deployed Link: HERE.");
