@@ -42,7 +42,7 @@ $(document).ready(function () {
         },
         {
             name: "FoodTroverts",
-            image_ref: "assets/images/project-images/FoodTroverts.png",
+            image_ref: "assets/images/project-images/FoodTroverts_2.png",
             image_alt: "FoodTroverts",
             repo_url: "https://github.com/EricNg314/Foodtroverts",
             deployed_url: "https://ericng314.github.io/Foodtroverts/",
