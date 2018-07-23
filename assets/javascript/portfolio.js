@@ -6,7 +6,7 @@ $(document).ready(function () {
             image_alt: "Word Guess Game",
             repo_url: "https://github.com/EricNg314/Word-Guess-Game",
             deployed_url: "https://ericng314.github.io/Word-Guess-Game/",
-            tags: ["Show All", "Web Games", "Entertainment", "HTML", "CSS", "Javascript", "jQuery", "Bootstrap"]
+            tags: ["Show All", "Entertainment", "HTML", "CSS", "Javascript", "jQuery", "Bootstrap"]
         },
         {
             name: "Kibble Collector",
@@ -14,7 +14,7 @@ $(document).ready(function () {
             image_alt: "Unit 4 Game",
             repo_url: "https://github.com/EricNg314/unit-4-game",
             deployed_url: "https://ericng314.github.io/unit-4-game/",
-            tags: ["Show All", "Web Games", "Entertainment", "HTML", "CSS", "Javascript", "jQuery", "Bootstrap"]
+            tags: ["Show All", "Entertainment", "HTML", "CSS", "Javascript", "jQuery", "Bootstrap"]
         },
         {
             name: "Trivia",
@@ -22,7 +22,7 @@ $(document).ready(function () {
             image_alt: "Trivia Game",
             repo_url: "https://github.com/EricNg314/TriviaGame",
             deployed_url: "https://ericng314.github.io/TriviaGame/",
-            tags: ["Show All", "Web Games", "Entertainment", "HTML", "CSS", "Javascript", "jQuery", "Bootstrap"]
+            tags: ["Show All", "Entertainment", "HTML", "CSS", "Javascript", "jQuery", "Bootstrap"]
         },
         {
             name: "Gif Loader",
@@ -30,7 +30,7 @@ $(document).ready(function () {
             image_alt: "Gif Loader",
             repo_url: "https://github.com/EricNg314/GifTastic",
             deployed_url: "https://ericng314.github.io/GifTastic/",
-            tags: ["Show All", "Web Games", "Entertainment", "API", "HTML", "CSS", "Javascript", "jQuery", "Bootstrap"]
+            tags: ["Show All", "Entertainment", "API", "HTML", "CSS", "Javascript", "jQuery", "Bootstrap"]
         },
         {
             name: "Train Scheduler",
@@ -122,7 +122,7 @@ $(document).ready(function () {
         }
     ];
 
-    var tagBtnList = ["Show All", "Web Games", "Entertainment", "HTML", "CSS", "Javascript", "jQuery", "Bootstrap", "API", "Google Firebase", "Express.js", "Node.js", "SQL", "Sequelize", "MongoDB", "React", "Redux", "Handlebars"];
+    var tagBtnList = ["Show All", "Entertainment", "HTML", "CSS", "Javascript", "jQuery", "Bootstrap", "API", "Google Firebase", "Express.js", "Node.js", "SQL", "Sequelize", "MongoDB", "React", "Redux", "Handlebars"];
 
     //Adding tag buttons.
     displayTagBtns(tagBtnList);
