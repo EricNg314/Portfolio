@@ -2,7 +2,7 @@ $(document).ready(function () {
     var projects = [
         {
             name: "Hangman",
-            image_ref: "assets/images/test images/WordGuess.png",
+            image_ref: "assets/images/project-images/WordGuess.png",
             image_alt: "Word Guess Game",
             repo_url: "https://github.com/EricNg314/Word-Guess-Game",
             deployed_url: "https://ericng314.github.io/Word-Guess-Game/",
@@ -10,7 +10,7 @@ $(document).ready(function () {
         },
         {
             name: "Kibble Collector",
-            image_ref: "assets/images/test images/Kibble-Collector.png",
+            image_ref: "assets/images/project-images/Kibble-Collector.png",
             image_alt: "Unit 4 Game",
             repo_url: "https://github.com/EricNg314/unit-4-game",
             deployed_url: "https://ericng314.github.io/unit-4-game/",
@@ -18,7 +18,7 @@ $(document).ready(function () {
         },
         {
             name: "Trivia",
-            image_ref: "assets/images/test images/Trivia.png",
+            image_ref: "assets/images/project-images/Trivia.png",
             image_alt: "Trivia Game",
             repo_url: "https://github.com/EricNg314/TriviaGame",
             deployed_url: "https://ericng314.github.io/TriviaGame/",
@@ -26,7 +26,7 @@ $(document).ready(function () {
         },
         {
             name: "Gif Loader",
-            image_ref: "assets/images/test images/Gif Loader.png",
+            image_ref: "assets/images/project-images/Gif Loader.png",
             image_alt: "Gif Loader",
             repo_url: "https://github.com/EricNg314/GifTastic",
             deployed_url: "https://ericng314.github.io/GifTastic/",
@@ -34,7 +34,7 @@ $(document).ready(function () {
         },
         {
             name: "Train Scheduler",
-            image_ref: "assets/images/test images/Train-Scheduler.png",
+            image_ref: "assets/images/project-images/Train-Scheduler.png",
             image_alt: "Train Scheduler",
             repo_url: "https://github.com/EricNg314/Train_Scheduler",
             deployed_url: "https://ericng314.github.io/Train_Scheduler/",
@@ -42,7 +42,7 @@ $(document).ready(function () {
         },
         {
             name: "FoodTroverts",
-            image_ref: "assets/images/test images/FoodTroverts.png",
+            image_ref: "assets/images/project-images/FoodTroverts.png",
             image_alt: "FoodTroverts",
             repo_url: "https://github.com/EricNg314/Foodtroverts",
             deployed_url: "https://ericng314.github.io/Foodtroverts/",
@@ -50,7 +50,7 @@ $(document).ready(function () {
         },
         {
             name: "Liri-Node-App",
-            image_ref: "assets/images/Liri-Node-App.png",
+            image_ref: "assets/images/project-images/Liri-Node-App.png",
             image_alt: "Liri a node application.",
             repo_url: "https://github.com/EricNg314/Liri-node-app",
             deployed_url: "",
@@ -58,7 +58,7 @@ $(document).ready(function () {
         },
         {
             name: "Bamazon",
-            image_ref: "assets/images/Bamazon.png",
+            image_ref: "assets/images/project-images/Bamazon.png",
             image_alt: "Bamazon a node application.",
             repo_url: "https://github.com/EricNg314/Bamazon",
             deployed_url: "",
@@ -66,7 +66,7 @@ $(document).ready(function () {
         },
         {
             name: "Match Pokemon Trainers",
-            image_ref: "assets/images/test images/Pokemon-Trainer-Finder.png",
+            image_ref: "assets/images/project-images/Pokemon-Trainer-Finder.png",
             image_alt: "A pokemon match maker app.",
             repo_url: "https://github.com/EricNg314/Poke-Trainer-Finder",
             deployed_url: "https://powerful-mountain-82732.herokuapp.com/",
@@ -74,7 +74,7 @@ $(document).ready(function () {
         },
         {
             name: "Pokemon-Catcher",
-            image_ref: "assets/images/test images/Pokemon-Catcher.png",
+            image_ref: "assets/images/project-images/Pokemon-Catcher.png",
             image_alt: "Pokemon Catcher with SQL.",
             repo_url: "https://github.com/EricNg314/Pokemon-Catcher",
             deployed_url: "https://damp-hollows-13291.herokuapp.com/",
@@ -82,7 +82,7 @@ $(document).ready(function () {
         },
         {
             name: "Poke-Catcher-Sequelized",
-            image_ref: "assets/images/test images/Pokemon-Catcher.png",
+            image_ref: "assets/images/project-images/Pokemon-Catcher.png",
             image_alt: "Pokemon Catcher using Sequelize.",
             repo_url: "https://github.com/EricNg314/Poke-Catcher-Sequelized",
             deployed_url: "https://tranquil-sierra-89766.herokuapp.com/",
@@ -90,7 +90,7 @@ $(document).ready(function () {
         },
         {
             name: "Rent-All",
-            image_ref: "assets/images/test images/Rent-All.png",
+            image_ref: "assets/images/project-images/Rent-All.png",
             image_alt: "Rent-All Application",
             repo_url: "https://github.com/EricNg314/Rent-All",
             deployed_url: "https://enigmatic-shore-55514.herokuapp.com/",
@@ -98,7 +98,7 @@ $(document).ready(function () {
         },
         {
             name: "Job-Scraper",
-            image_ref: "assets/images/test images/Job Scraper.png",
+            image_ref: "assets/images/project-images/Job Scraper.png",
             image_alt: "Job-Scraper Application",
             repo_url: "https://github.com/EricNg314/Job-Scraper",
             deployed_url: "https://radiant-everglades-91406.herokuapp.com/",
@@ -106,7 +106,7 @@ $(document).ready(function () {
         },
         {
             name: "Kitten Memory Game",
-            image_ref: "assets/images/test images/Kitten Memory Game-REACT.png",
+            image_ref: "assets/images/project-images/Kitten Memory Game-REACT.png",
             image_alt: "Kitten-Memory-Game-REACT Application",
             repo_url: "https://github.com/EricNg314/Kitten-Memory-Game-REACT",
             deployed_url: "https://ericng314.github.io/Kitten-Memory-Game-REACT/",
@@ -114,7 +114,7 @@ $(document).ready(function () {
         },
         {
             name: "Career Deer",
-            image_ref: "assets/images/test images/Career-Deer.png",
+            image_ref: "assets/images/project-images/Career-Deer.png",
             image_alt: "Career Deer Application",
             repo_url: "https://github.com/jimmytutron/career-deer",
             deployed_url: "https://careerdeer.herokuapp.com/",
@@ -136,8 +136,8 @@ $(document).ready(function () {
         var tag = $(this).attr("data-tag");
         $(this).addClass("active");
         // console.log($(this).attr("data-tag"));
-        selectedTag(projects, tag);
         onLinkClick();
+        selectedTag(projects, tag);
     })
 
 });

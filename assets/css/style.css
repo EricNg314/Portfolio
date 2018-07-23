@@ -57,7 +57,11 @@ body {
     background:rgba(93, 131, 255, 0.20);
 }
 
-.overflowHidden{
+.c-lightgrey{
+color: lightgrey;
+}
+
+.ov-hidden{
     overflow:hidden;
 }
 
@@ -104,3 +108,4 @@ body {
 .fz-14 {
     font-size: 14px;
 }
+
