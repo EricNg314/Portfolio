@@ -153,7 +153,7 @@ function displayTagBtns(tagBtnList) {
     $("#projectTags").empty();
     for (var i = 0; i < tagBtnList.length; i++) {
         var tagButton = $("<button>");
-        tagButton.addClass("btn tag-btn my-1 mx-1 tag-style btn-outline-light animated fadeIn");
+        tagButton.addClass("btn tag-btn my-1 mx-1 tag-style btn-outline-dark animated fadeIn");
         //Add active to the initial rendering of tag list.
         if (tagBtnList[i] === "Show All") {
             tagButton.addClass("active");
