@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    background: url("../images/dark_sky.jpg") no-repeat bottom right fixed;
+    background: url("../images/shattered.png") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover; 
@@ -9,6 +9,11 @@ body {
 
 }
 
+a.deco-none {
+    color:#000000 !important;
+    text-decoration:none;
+
+}
 
 #jumbotronID {
     background-image: url("../images/water_drop_dark.jpg");
@@ -34,7 +39,7 @@ body {
 }
 
 #navBarID{
-    background:rgba(14, 0, 145, 0.20);
+    background:rgb(1, 0, 78);
 }
 
 #navBarName{
@@ -54,11 +59,7 @@ body {
 
 }
 .sectionTitle{
-    background:rgba(93, 131, 255, 0.20);
-}
-
-.c-lightgrey{
-color: lightgrey;
+    background:rgb(1, 0, 78, .1);
 }
 
 .ov-hidden{
@@ -66,12 +67,12 @@ color: lightgrey;
 }
 
 .tag-style {
-    background:rgba(93, 131, 255, 0.20);
+    background:rgba(93, 131, 255, 1);
 }
 
 .pageContent{
-    background:rgba(0, 0, 0, 0.6);
-    color:white;
+    background:rgba(0, 0, 0, 0.0);
+    color:black;
     font-weight: 400;
     font-size: 14pt;
 }
@@ -89,17 +90,12 @@ color: lightgrey;
     position: absolute;
     bottom: 15px;
     width: 100%;
-    background: rgba(0, 0, 139, 0.582);
+    background: rgba(0, 0, 139, 1);
 }
 
 .portfolioCard{
-    background:rgba(93, 131, 255, 0.20);
+    background:rgba(93, 131, 255, 1);
 }
-
-.footerContent{
-    background:rgba(14, 0, 145, 0.20);
-}
-
 
 .footerTitle{
     /* background:rgba(61, 47, 189, 0.90); */
