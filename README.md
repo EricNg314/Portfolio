@@ -2,8 +2,8 @@
 
 First off, thank you for visiting my page. This contains a compilation of my web development projects and will be even better in the future! 
 
-## Link: https://ericng314.github.io/Portfolio/
-<img src="assets/images/Profile_Page.png" width="100%" height="100%">
+## Link: https://eric-ng.io/
+<img src="assets/images/Profile_Page_v2.png" width="100%" height="100%">
 
 
 ## Built With :european_castle:
@@ -29,6 +29,8 @@ This portfolio contains links to projects that have utilized the following and m
 * [NPM - cheerio](https://www.npmjs.com/package/cheerio) - Fast, flexible & lean implementation of core jQuery designed specifically for the server.
 * [NPM - mongoose](https://www.npmjs.com/package/mongoose) - Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment.
 * [NPM - morgan](https://www.npmjs.com/package/morgan) - HTTP request logger middleware for node.js
+* [React](https://reactjs.org/) - A JavaScript library for building user interfaces
+* [Redux](https://redux.js.org/) - Redux is a predictable state container for JavaScript apps.
 
 
 ## Authors :pray:
