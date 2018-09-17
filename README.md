@@ -1,6 +1,8 @@
 # Portfolio :white_check_mark:
 
-First off, thank you for visiting my page. This contains a compilation of my web development projects and will be even better in the future! 
+First off, thank you for visiting my page. I hope you enjoy the current portfolio that was built using a Serverless framework and AWS Lamda.
+
+This contains a compilation of my web development projects and will be updated a better styled React variant [https://github.com/EricNg314/Portfolio-React](https://github.com/EricNg314/Portfolio-React) in the near future! 
 
 ## Link: https://eric-ng.io/
 <img src="assets/images/Profile_Page_v2.png" width="100%" height="100%">
