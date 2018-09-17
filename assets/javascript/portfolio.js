@@ -127,29 +127,29 @@ $(document).ready(function () {
     var queryURL = "https://uwr1s5qnb4.execute-api.us-west-1.amazonaws.com/production/projects"
 
     $.ajax({
-        url: queryURL,
+        url: 'https://cors-anywhere.herokuapp.com/' + queryURL,
         method: "GET"
     }).then(function(response){
-        console.log(response);
-        // var projects = response["data"]
+        // console.log(response);
+        var projects = response["data"]
 
-        // var tagBtnList = ["Show All", "Entertainment", "HTML", "CSS", "Javascript", "jQuery", "Bootstrap", "API", "Google Firebase", "Express.js", "Node.js", "SQL", "Sequelize", "MongoDB", "React", "Redux", "Handlebars"];
+        var tagBtnList = ["Show All", "Entertainment", "HTML", "CSS", "Javascript", "jQuery", "Bootstrap", "API", "Google Firebase", "Express.js", "Node.js", "SQL", "Sequelize", "MongoDB", "React", "Redux", "Handlebars"];
 
-        // //Adding tag buttons.
-        // displayTagBtns(tagBtnList);
+        //Adding tag buttons.
+        displayTagBtns(tagBtnList);
     
-        // //Adding projects to gallery.
-        // // displayProjects(projects);
-        // selectedTag(projects, "Show All");
+        //Adding projects to gallery.
+        // displayProjects(projects);
+        selectedTag(projects, "Show All");
     
-        // $(document).on("click", ".tag-btn", function (event) {
-        //     $(".tag-btn").removeClass("active")
-        //     var tag = $(this).attr("data-tag");
-        //     $(this).addClass("active");
-        //     // console.log($(this).attr("data-tag"));
-        //     onLinkClick();
-        //     selectedTag(projects, tag);
-        // })
+        $(document).on("click", ".tag-btn", function (event) {
+            $(".tag-btn").removeClass("active")
+            var tag = $(this).attr("data-tag");
+            $(this).addClass("active");
+            // console.log($(this).attr("data-tag"));
+            onLinkClick();
+            selectedTag(projects, tag);
+        })
     })
 
 });
