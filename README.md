@@ -1,10 +1,15 @@
 # Portfolio :white_check_mark:
 
-First off, thank you for visiting my page. I hope you enjoy the current portfolio that was built using a Serverless framework and AWS Lamda.
+First off, thank you for visiting my page. I hope you enjoy the current portfolio built to include the Serverless Framework and AWS Lamda.
 
-This contains a compilation of my web development projects and will be updated a better styled React variant [https://github.com/EricNg314/Portfolio-React](https://github.com/EricNg314/Portfolio-React) in the near future! 
+This contains a compilation of my web development projects.
 
 ## Link: https://eric-ng.io/
+
+The portfolio will be updated with React and a better layout.
+[https://github.com/EricNg314/Portfolio-React](https://github.com/EricNg314/Portfolio-React)
+
+
 <img src="assets/images/Profile_Page_v2.png" width="100%" height="100%">
 
 
@@ -12,6 +17,8 @@ This contains a compilation of my web development projects and will be updated a
 
 This portfolio contains links to projects that have utilized the following and many more packages/APIs: 
 
+* [Serverless Framework](https://serverless.com/) - The Serverless Framework is a free and open-source web framework written using Node.js.
+* [AWS Lambda](https://aws.amazon.com/lambda/) - AWS Lambda lets you run code without provisioning or managing servers.
 * [HTML5](https://www.w3.org/TR/html/) - Standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.
 * [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) - Styling html webpages.
 * [Bootstrap](https://getbootstrap.com/) - Open source toolkit for developing with HTML, CSS, and JS. 

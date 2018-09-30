@@ -31,7 +31,7 @@ module.exports.projects = async (event, context) => {
         },
         {
           name: "Gif Loader",
-          image_ref: "assets/images/project-images/Gif Loader.png",
+          image_ref: "assets/images/project-images/Gif-Loader.png",
           image_alt: "Gif Loader",
           repo_url: "https://github.com/EricNg314/GifTastic",
           deployed_url: "https://ericng314.github.io/GifTastic/",
@@ -103,7 +103,7 @@ module.exports.projects = async (event, context) => {
         },
         {
           name: "Job-Scraper",
-          image_ref: "assets/images/project-images/Job Scraper.png",
+          image_ref: "assets/images/project-images/Job-Scraper.png",
           image_alt: "Job-Scraper Application",
           repo_url: "https://github.com/EricNg314/Job-Scraper",
           deployed_url: "https://radiant-everglades-91406.herokuapp.com/",
@@ -111,7 +111,7 @@ module.exports.projects = async (event, context) => {
         },
         {
           name: "Kitten Memory Game",
-          image_ref: "assets/images/project-images/Kitten Memory Game-REACT.png",
+          image_ref: "assets/images/project-images/Kitten-Memory-Game-REACT.png",
           image_alt: "Kitten-Memory-Game-REACT Application",
           repo_url: "https://github.com/EricNg314/Kitten-Memory-Game-REACT",
           deployed_url: "https://ericng314.github.io/Kitten-Memory-Game-REACT/",
