@@ -127,7 +127,7 @@ $(document).ready(function () {
     var queryURL = "https://uwr1s5qnb4.execute-api.us-west-1.amazonaws.com/production/projects"
 
     $.ajax({
-        url: 'https://cors-anywhere.herokuapp.com/' + queryURL,
+        url: queryURL,
         method: "GET"
     }).then(function(response){
         // console.log(response);
